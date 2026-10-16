@@ -15,7 +15,9 @@ The program reads the file BankOfCanadaExchangeRate.2026.csv and uses the most r
    - python ExchangeRates.py   (this one is my own code)
    - python ExchangeRatesAI.py (AI-generated version)
 
-Python will prompt you and should be asked for the amount and the two currencies. For example (from my own code, not the AI code): "Enter the amount:" or "Enter the from/to currency (USD or CAD):"
+Python will prompt you and you will be asked for the amount and the two currencies. For example (from my own code, not the AI code): "Enter the amount:" or "Enter the from/to currency (USD or CAD):"
+
+Note: On some computers (especially Macs) the program must be run with python3 instead of python.
 
 ## Files
 
