@@ -15,7 +15,7 @@ The program reads the file BankOfCanadaExchangeRate.2026.csv and uses the most r
    - python ExchangeRates.py   (this one is my own code)
    - python ExchangeRatesAI.py (AI-generated version)
 
-Python will prompt you and should be asked for the amount and the two currencies. For example: "Enter the amount:" or "Enter the from/to currency (USD or CAD):"
+Python will prompt you and should be asked for the amount and the two currencies. For example (from my own code, not the AI code): "Enter the amount:" or "Enter the from/to currency (USD or CAD):"
 
 ## Files
 
@@ -25,5 +25,5 @@ Python will prompt you and should be asked for the amount and the two currencies
 
 ## Sample Output
 
-$100,000 USD to CAD → $184,200.00 CAD
-$100,000 CAD to USD → $54,288.82 USD 
+$100,000 USD to CAD → $139,780.00 CAD  
+$100,000 CAD to USD → $71,540.99 USD

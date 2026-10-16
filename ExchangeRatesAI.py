@@ -10,8 +10,8 @@ class ExchangeRates:
             rows = list(reader)
             # last data row contains the most recent rates
             latest = rows[-1]
-            # USD/CAD rate is in column index 25
-            self.rate = float(latest[25])
+            # USD/CAD rate is in column index 26
+            self.rate = float(latest[26])
 
     def convert(self, amount, from_currency, to_currency):
         from_currency = from_currency.upper()

@@ -13,9 +13,9 @@ class ExchangeRates:
         last_line = lines[-1].strip()
         parts = last_line.split(",")
 
-        # FXAUSDCAD is the 26th column (index 25)
+        # FXAUSDCAD is the 26th column (index 26)
         # this is how many Canadian dollars equal 1 US dollar
-        self.usd_to_cad = float(parts[25])
+        self.usd_to_cad = float(parts[26])
 
     def convert(self, amount, from_currency, to_currency):
         # convert the amount from one currency to the other
